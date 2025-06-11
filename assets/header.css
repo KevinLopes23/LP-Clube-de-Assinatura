@@ -11,7 +11,6 @@ nav {
   padding-top: 58px;
   padding-left: 160px;
   padding-right: 160px;
-  
 
   button {
     border-radius: 8px;
@@ -38,6 +37,7 @@ nav {
 
   h1 {
     color: var(--text-title);
+    margin-bottom: 32px;
   }
   p {
     color: var(--text-body);
