@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 :root {
   /* Cores */
 
@@ -125,4 +132,16 @@
   font-weight: bold;
   letter-spacing: 5%;
   text-transform: uppercase;
+}
+
+.align-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: var(--shape-background);
 }
