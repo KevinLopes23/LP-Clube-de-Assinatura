@@ -52,6 +52,7 @@ nav {
   width: fit-content;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 20rem;
 
   p {
     color: var(--text-body);
