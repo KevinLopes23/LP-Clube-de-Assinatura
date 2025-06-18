@@ -65,6 +65,13 @@
   text-transform: none;
 }
 
+.title-sx {
+  font-size: 16px;
+  line-height: auto;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
 /* Subtítulo */
 .subtitle {
   font-size: 32px;
@@ -144,4 +151,9 @@
 
 body {
   background-color: var(--shape-background);
+}
+
+
+.pink-light {
+  color: var(--pink-light);
 }

@@ -17,4 +17,96 @@
 .cards {
   width: 288px;
   height: 416px;
+  background-color: var(--shape-hover);
+  border-radius: 24px;
+}
+
+.text-card {
+  display: flex;
+  margin-top: 32px;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    background-color: var(--shape-stroke);
+    border-radius: 999px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: var(--text-body);
+  }
+}
+
+.card-precos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 43px;
+  margin-bottom: 50px;
+}
+
+.color-price-1 {
+  color: var(--text-title);
+  margin-bottom: 8px;
+}
+
+.color-price-2 {
+  color: var(--text-label);
+}
+
+.beneficios {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 28px;
+
+  li {
+    color: var(--text-body);
+    margin-bottom: 12px;
+    list-style: none;
+  }
+}
+
+.lista-beneficios {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.lista-beneficios img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.lista-beneficios li {
+  margin: 0;
+  text-align: left;
+}
+
+.assinar-semestre {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pink-dark);
+  height: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 28px;
+
+  a {
+    color: var(--text-title);
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+  }
 }
